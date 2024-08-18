@@ -62,7 +62,7 @@ Replace `8765` with the desired port number and `0.0.0.0` with the desired IP ad
 
 ### Open receiver.html or receive.py
 
-Now open the `index.html` file in your web browser to connect to the WebSocket server. 
+Now open the `receiver.html` file in your web browser to connect to the WebSocket server. 
 
 <img src="img/web_file_downloader.png" title="" alt="Web File Downloader" data-align="center">
 
