@@ -59,9 +59,9 @@ Reemplaza `8765` con el número de puerto deseado y `0.0.0.0` con la dirección 
 
 <img src="img/python_server.png" title="" alt="Python Server" data-align="center">
 
-### Abrir index.html o receive.py
+### Abrir receiver.html o receive.py
 
-Ahora abre el archivo `index.html` en tu navegador web para conectarte al servidor WebSocket.
+Ahora abre el archivo `receiver.html` en tu navegador web para conectarte al servidor WebSocket.
 
 <img src="img/web_file_downloader.png" title="" alt="Web File Downloader" data-align="center">
 
@@ -137,7 +137,7 @@ python3 sender.py -u ws://localhost:8765 -t chat -f /path/to/file.txt
   - Escucha mensajes entrantes del servidor.
   - Guarda archivos recibidos en el sistema de archivos local.
 
-### index.html
+### receiver.html
 
 - **Descripción:** Este archivo HTML contiene una interfaz web simple para interactuar con el servidor WebSocket. Permite a los usuarios conectarse al servidor, suscribirse a temas y descargar archivos recibidos del servidor.
 
