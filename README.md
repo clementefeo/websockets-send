@@ -60,7 +60,7 @@ Replace `8765` with the desired port number and `0.0.0.0` with the desired IP ad
 
 <img src="img/python_server.png" title="" alt="Python Server" data-align="center">
 
-### Open index.html or receive.py
+### Open receiver.html or receive.py
 
 Now open the `index.html` file in your web browser to connect to the WebSocket server. 
 
@@ -134,7 +134,7 @@ python3 sender.py -u ws://localhost:8765 -t chat -f /path/to/file.txt
   Listens for incoming messages from the server.
   Saves received files to the local file system.
 
-### index.html
+### receiver.html
 
 - **Description:** This HTML file contains a simple web interface for interacting with the WebSocket server. It allows users to connect to the server, subscribe to topics, and download files received from the server.
 
